@@ -1,0 +1,22 @@
+package Dec_13_2024;
+
+public class if_else {
+
+	public static void main(String[] args) {
+		
+		int number1 = 100;
+		int number2 = 20;
+		
+		if(number1 < number2) {
+			
+			System.out.println("Number 1 is smallest...");
+			
+		}else {
+			
+			System.out.println("Number 1 is not smallest...");
+			
+		}
+
+	}
+
+}
