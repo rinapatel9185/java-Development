@@ -1,26 +1,32 @@
 package nested;
-
-public class NESTED {
+import java.util.Scanner;
+public class scanner {
 	
 	public static void main(String[] args ) {
+
+        Scanner sc=new.Scanner(System.in)		
 		
-		int n1=10;
-		int n2=25;
-		int n3=96;
+		int age;
+		string name, address;
+		float height;
+		char ltr;
+		System.out.println("enter your address :");
+		address=sc.nextLine();
+		System.out.println("enter your name :");
+		name=sc.next();
+		System.out.println("enter your age :");
+		age=sc.nextInt();
+		System.out.println("enter your height :");
+		height=sc.nextFloat();
+		System.out.println("enter your char :");
+		ltr=sc.next().charAt(0);
+		System.out.println("enter your address :" +address);
+		System.out.println("enter your name :" +name);
+		System.out.println("enter your age :" +age);
+		System.out.println("enter your char :" +ltr);
+		System.out.println("enter your height :" +height);
 		
-		if(n1<n2 && n2<n3) {
-			System.out.println("Number n1 is smallest...");	
-		}
 		
-		else if(n2<n3 && n3<n1) {
-			
-			System.out.println("Number n2 is smallest....");
-		}
-		else {
-		System.out.println("Number n3 is smallest");
-		
-		
-		}
 	}
 
 }
