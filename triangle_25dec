@@ -1,0 +1,30 @@
+package dec_14_2024;
+
+public class Loop_25_dec {
+	
+	public static void main(String [] args) {
+		
+		for(int i=1;i<=5;i++) {
+			
+			for(int j=5;j>=i;j--) {
+				
+				System.out.print("*");				
+				
+			}
+			
+			System.out.println();
+		}
+		
+     for(int i=1;i<=5;i++) {
+			
+			for(int j=0;j<=i;j++) {
+				
+				System.out.print("*");				
+				
+			}
+			
+			System.out.println();
+		}
+	}
+
+}
