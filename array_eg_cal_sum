@@ -1,0 +1,48 @@
+package year_2025;
+
+import java.util.Scanner;
+
+public class Userinput_array {
+	
+	
+	public static void main(String [] args) {
+		
+		Scanner scanner= new Scanner(System.in);
+		
+		int size;
+		
+		int total=0;
+		
+		System.out.println("Enter size of array...");
+		size=scanner.nextInt();
+		
+		  int [] array = new int[size];
+		  
+		  for(int i=0;i<size;i++) {
+			  
+			  System.out.println("Enter element array.....["+i+"]");
+			  
+			  array[i]=scanner.nextInt();
+			  
+			  
+		  }
+		  
+		  System.out.println("Element are..");
+		  
+		  for(int i=0;i<size;i++) {
+			  
+		  System.out.println("Enter element array.....["+i+"]="+array[i]);
+		  total=total+array[i]; 
+			  
+		  }
+		  
+		 
+			  
+			  
+		 
+		System.out.println("total = "+total);
+		
+	}
+	
+
+}
