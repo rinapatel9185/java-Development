@@ -1,0 +1,41 @@
+package function01;
+
+public class Totalnumber {
+	
+	static int Total;
+	
+	static void mark(int java, int python, int c , int jq, int php) {
+		
+		
+	    int total = java+python+c+jq+php;
+	    
+	    Total=total;
+	    
+	    System.out.println("java =" +java);
+	    System.out.println("python =" +python);
+	    System.out.println("c =" +c);
+	    System.out.println("jq =" +jq);
+	    System.out.println("php =" +php);
+	    System.out.println("Total ="+total);
+	    
+	    		
+	}
+
+      static void Percentage(){
+	     
+          int percentage = (Total*100)/500;
+          System.out.println("Percentage :" +percentage);
+        
+	   
+   }
+ 
+   public static void main(String [] args) {
+	   
+	  mark(68,78,98,87,98);
+	   Percentage();
+	   
+
+	   
+	   
+   }
+}
