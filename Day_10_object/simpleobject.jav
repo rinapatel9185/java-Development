@@ -1,6 +1,6 @@
 package function01;
 
-public class Objectclass {
+public class simpleobject{
 	
 	String name = "Yash";
 	int salary = 15000;
@@ -10,9 +10,10 @@ public class Objectclass {
 		System.out.println("NAMAE : " +name);
 		System.out.println("SALARY :" +salary);
 		}
+	
 	public static void main(String [] args) {
 		
-		Objectclass obj = new Objectclass();
+	simpleobject obj = new simpleobject ();
 		obj.display();
 			
 		
