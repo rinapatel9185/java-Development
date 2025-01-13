@@ -1,0 +1,24 @@
+package firstprogram;
+
+public class object {
+	
+	String name;
+	int rollno;
+	
+	void display() {
+		
+		System.out.println("Name ="+name);
+		System.out.println("Rollno="+rollno);
+		
+	}
+	public static void main(String[]args) {
+		
+		object obj =new object();
+		obj.name="Yash";
+		obj.rollno=101;
+		obj.display();
+	}
+	
+	
+
+}
