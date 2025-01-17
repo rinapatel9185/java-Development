@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "day_5_array",
+        "Day_12_constructor",
         "Day_07_2025",
         "Day_06_2024",
-        "Day_11_objectclass"
+        "Day_13_Encapsulation"
     ]
 }
