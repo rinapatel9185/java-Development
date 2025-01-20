@@ -14,7 +14,7 @@ public class student {
     age=Age;
 
     }
-   Void set_name (String name){
+   void set_name(String Name){
     name =Name;
    }
  
