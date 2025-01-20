@@ -1,37 +1,37 @@
 public class student {
 
-    String stdname;
+    String name;
     String city;
     int rollno;
     int age;
 
 
 
-    student(String Stdname,String City,int Rollno,int Age){
-    stdname =Stdname;
+    student(String Name,String City,int Rollno,int Age){
+    name = Name;
     city=City;
     rollno=Rollno;
     age=Age;
 
     }
-   Void set_stdname(){
-    stdname=Stdname;
+   Void set_name (String name){
+    name =Name;
    }
  
-   void set_city(){
-   city=City();
+   void set_city(String City){
+   city=City;
 
    }
-   void set_rollno(){
+   void set_rollno(int Rollno){
     rollno=Rollno;
    }
 
-   void set_age(){
+   void set_age(int Age){
     age=Age;
    }
  
-   String get_stdname(){
-    return stdname;
+   String get_name(){
+    return name;
 
    }
 
