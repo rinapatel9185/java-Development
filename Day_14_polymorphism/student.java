@@ -12,7 +12,7 @@ public class student {
     }
     
     public static void main(String[] args) {
-        student std= new student();
+        student01 std= new student01();
         std.info();
         std.info(null);
         std.info(0);

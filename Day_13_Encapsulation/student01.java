@@ -1,4 +1,5 @@
-public class student {
+
+public class student01 {
 
     String name;
     String city;
@@ -7,7 +8,7 @@ public class student {
 
 
 
-    student(String Name,String City,int Rollno,int Age){
+    student01(String Name,String City,int Rollno,int Age){
     name = Name;
     city=City;
     rollno=Rollno;
