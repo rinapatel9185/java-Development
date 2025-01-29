@@ -1,4 +1,4 @@
-public class student {
+public class student02 {
 
     void info(){
      System.out.println("HELLO RIYA");
@@ -7,14 +7,14 @@ public class student {
 
         System.out.println("WELCOME TO INDIA");
     }
-    void info(int riya){
+    void info(int rina){
         System.out.println("THANK YOU SO MUCH");
     }
     
     public static void main(String[] args) {
-        student01 std= new student01();
+        student02 std= new student02();
         std.info();
-        std.info(null);
-        std.info(0);
+        std.info("hello ");
+        std.info(25);
     }
 }
