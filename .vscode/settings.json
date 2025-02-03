@@ -1,12 +1,13 @@
 {
     "java.project.sourcePaths": [
         "day_5_array",
+        "Day_15",
         "Day_14_polymorphism",
         "Day_13_Encapsulation",
         "Day_12_constructor",
         "Day_07_2025",
         "Day_06_2024",
         "Constructor01",
-        "Day_15"
+        "Types_of_Inheritance/Single_Inheritance"
     ]
 }
