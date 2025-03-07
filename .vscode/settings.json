@@ -1,14 +1,11 @@
 {
     "java.project.sourcePaths": [
-        "day_5_array",
         "Types_of_Inheritance/Single_Inheritance",
-        "Day_15",
+        "Lecture_11",
         "Day_14_polymorphism",
         "Day_13_Encapsulation",
         "Day_12_constructor",
-        "Day_07_2025",
-        "Day_06_2024",
-        "Constructor01",
-        "Lecture_11"
-    ]
+        "Set_Example"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
