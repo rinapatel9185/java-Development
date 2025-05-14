@@ -9,7 +9,7 @@
 <body>
   <h2>Submitted information</h2>
   <p><strong>Name:</strong> ${name}</p>
-  <p><strong>Email:</strong>${email}</p>
+  <p><strong>password:</strong>${pwd_f}</p>
   <a href="std1.html">Back to form</a>
 </body>
 </html>
